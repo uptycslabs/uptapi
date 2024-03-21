@@ -3,8 +3,8 @@ Uptycs API Python SDK
 
 This python SDK allows users to access the Uptycs API providing they have a valid API key file. 
 
-This example runs the demo program:
-`python3 uptdemo.py <api_keyfile.json>`
+This example runs the demo program:  
+`python3 uptdemo.py <api_keyfile.json>`  
 The demo program includes the following use cases:
  - List asset details
  - List asset tags
@@ -26,5 +26,5 @@ api_call.py options:
   -D, --postdatafile TEXT         post json data file
 ```
 
-This example gets event/alert rule exceptions thens filters using grep:
+This example gets event/alert rule exceptions thens filters using grep:  
 `python3 get_exceptions.py <api_keyfile.json> | grep <search-string>`
