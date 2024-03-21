@@ -1,0 +1,4 @@
+{
+  "query": "select * from processes limit 100 ",
+  "type": "global"
+}
