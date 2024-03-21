@@ -13,7 +13,7 @@ The demo program includes the following use cases:
  - Run a realtime query
  - Run a global (historic) query
  - Download an install package
-
+  
 These examples show how to hit a arbitary Uptycs API endpoint: 
 ```
 python3 api_call.py -k <api_keyfile.json> -m POST -a /query -D query_payload.json
@@ -25,6 +25,6 @@ api_call.py options:
   -a, --api TEXT                  API endpoint name [/alerts, /assets, etc]
   -D, --postdatafile TEXT         post json data file
 ```
-
+  
 This example gets event/alert rule exceptions thens filters using grep:  
 `python3 get_exceptions.py <api_keyfile.json> | grep <search-string>`
