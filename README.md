@@ -28,5 +28,5 @@ api_call.py options:
 ```
 
    
-This example gets event/alert rule exceptions thens filters using grep:  
+This example gets event/alert rule exceptions then filters using grep:  
 `python3 get_exceptions.py <api_keyfile.json> | grep <search-string>`
