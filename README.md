@@ -3,6 +3,9 @@ Uptycs API Python SDK
 
 This python SDK allows users to access the Uptycs API providing they have a valid API key file. 
 
+Install the requirements: 
+`pip install -r requirements.txt`
+
 This example runs the demo program:  
 `python3 uptdemo.py <api_keyfile.json>`  
 The demo program includes the following use cases:
